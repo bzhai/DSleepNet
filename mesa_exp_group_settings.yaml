@@ -1,0 +1,167 @@
+trainyounghealthy1:
+  train:
+    bmi5c: [0, 1]
+    ahi4pa5: [0, 1]
+    sleepage5c: [0, 1]
+  test:
+    bmi5c: [2, 3]
+    ahi4pa5: [2, 3]
+    sleepage5c: [3, 4]
+
+group2:
+  train:
+    bmi5c: [0, 1]
+    ahi4pa5: [0, 1]
+    sleepage5c: [0, 1, 2]
+  test:
+    bmi5c: [2, 3]
+    ahi4pa5: [2, 3]
+    sleepage5c: [3, 4]
+
+group3:
+  train:
+    bmi5c: [2, 3]
+    ahi4pa5: [2, 3]
+    sleepage5c: [3, 4]
+  test:
+    bmi5c: [0, 1]
+    ahi4pa5: [0, 1]
+    sleepage5c: [0, 1, 2]
+
+group5:
+  train:
+    bmi5c: [2, 3]
+    ahi4pa5: [2, 3]
+    sleepage5c: [0, 1, 2]
+  test:
+    bmi5c: [0, 1]
+    ahi4pa5: [0, 1]
+    sleepage5c: [3, 4]
+
+
+group6:
+  train:
+    ahi4pa5: [0]
+  test:
+    ahi4pa5: [1, 2, 3]
+
+group7:
+  train:
+    ahi4pa5: [1, 2, 3]
+  test:
+    ahi4pa5: [0]
+
+group51:
+  train:
+    bmi5c: [0]
+  test:
+    bmi5c: [1, 2, 3]
+
+group52:
+  train:
+    bmi5c: [1, 2, 3]
+  test:
+    bmi5c: [0]
+
+group53:
+  train:
+    ahi4pa5: [2, 3]
+  test:
+    ahi4pa5: [0, 1]
+
+group54:
+  train:
+    ahi4pa5: [0, 1]
+  test:
+    ahi4pa5: [2, 3]
+
+group61:
+  train:
+    sleepage5c: [0, 1]
+  test:
+    sleepage5c: [3, 4]
+
+group62:
+  train:
+    sleepage5c: [3, 4]
+  test:
+    sleepage5c: [0, 1]
+
+group63:
+  train:
+    sleepage5c: [1,2,3,4]
+  test:
+    sleepage5c: [0]
+
+group64:
+  train:
+    sleepage5c: [0, 1, 2]
+  test:
+    sleepage5c: [3, 4]
+
+group100:
+  train:
+    gender1: [0]
+  test:
+    gender1: [1]
+
+group101:
+  train:
+    gender1: [1]
+  test:
+    gender1: [0]
+
+group103:
+  train:
+    gender1: [1]
+    bmi5c: [2, 3]
+    ahi4pa5: [2, 3]
+    sleepage5c: [0, 1, 2]
+  test:
+    gender1: [0]
+    bmi5c: [0, 1]
+    ahi4pa5: [0, 1]
+    sleepage5c: [3, 4]
+
+group104:
+  train:
+    gender1: [0]
+    bmi5c: [2, 3]
+    ahi4pa5: [2, 3]
+    sleepage5c: [0, 1, 2]
+  test:
+    gender1: [1]
+    bmi5c: [0, 1]
+    ahi4pa5: [0, 1]
+    sleepage5c: [3, 4]
+#group4:
+#  train:
+#    bmi5c: [2, 3]
+#    ahi4pa5: [2, 3]
+#    sleepage5c: [0, 1, 2]
+#  test:
+#    bmi5c: [0, 1]
+#    ahi4pa5: [2, 3]
+#    sleepage5c: [3, 4]
+
+#
+#group1:
+#  train:
+#    bmi5c: [0]
+#    ahi4pa5: [0]
+#    sleepage5c: [0]
+#  test:
+#    bmi5c: [3]
+#    ahi4pa5: [3]
+#    sleepage5c: [3,4]
+
+
+#group3:
+#  train:
+#    bmi5c: [0, 1]
+#    ahi4pa5: [2, 3]
+#    sleepage5c: [0, 1, 2]
+#  test:
+#    bmi5c: [2, 3]
+#    ahi4pa5: [2, 3]
+#    sleepage5c: [3, 4]

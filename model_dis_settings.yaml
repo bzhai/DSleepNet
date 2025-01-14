@@ -1,0 +1,43 @@
+qzd:
+  100:
+    fc_dim: 7
+    la_step: 7
+  50:
+    fc_dim: 4
+    la_step: 4
+  20:
+    fc_dim: 256
+    la_step: 2
+
+lstm:
+  100:
+    fc_dim: 7
+    la_step: 7
+  50:
+    fc_dim: 4
+    la_step: 4
+  20:
+    fc_dim: 256
+    la_step: 2
+
+GSN_NO_IE:
+  100:
+    fc_dim: 896
+    la_step: 7
+  50:
+    fc_dim: 512
+    la_step: 4
+  20:
+    fc_dim: 256
+    la_step: 2
+
+GSNMSE3DIS:
+  100:
+    fc_dim: 896
+    la_step: 7
+  50:
+    fc_dim: 512
+    la_step: 4
+  20:
+    fc_dim: 256
+    la_step: 2
