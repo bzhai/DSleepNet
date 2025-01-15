@@ -1,12 +1,13 @@
-# ISSMP_DIS
+# DSleepNet
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.7%2B-green.svg)](https://www.python.org/downloads/)
 
-The official implementation for ISSMP_DIS: A project focused on disentangling and analyzing sleep stage data from multimodal inputs. 
+The official implementation for DSleepNet: Disentanglement Learning for Personal Attribute-agnostic Three-stage Sleep Classification Using Wearable Sensing Data
 
 ## Overview
-ISSMP_DIS provides tools for preprocessing, training, and evaluating models on multimodal datasets including RRI, actigraphy, BMI, and Apple Watch data. 
+
+For the sleep stage classification task, gathering data from the entire population is often difficult and resource-intensive. What if you lack the resources to collect data that represents all possible scenarios, such as different ages or health conditions, for accurate sleep monitoring? Existing methods frequently rely on costly setups or data that fail to adapt well to diverse individuals. Our solution, **DSleepNet**, overcomes this challenge by separating personal attribute information (like age or BMI) from universal features critical for sleep stage detection. This innovative approach ensures the model performs effectively for a wide range of people without requiring additional personal data during use. It employs advanced training techniques to deliver reliable predictions, even in diverse, real-world settings.
 
 ## Features
 - Preprocessing tools for aligning RRI and actigraphy data
@@ -22,7 +23,7 @@ ISSMP_DIS provides tools for preprocessing, training, and evaluating models on m
 Before running experiments, preprocess the data by following these steps:
 
 1. **RRI and Actigraphy Data**
-   - Download RRI and actigraphy data from the [Sleepdata.org](https://sleepdata.org/) website after obtaining access.
+   - Download [RRI](https://sleepdata.org/datasets/mesa/files/polysomnography/annotations-rpoints) and [actigraphy data](https://sleepdata.org/datasets/mesa/files/actigraphy) from the [MESA]([https://sleepdata.org/](https://sleepdata.org/datasets/mesa)) website after obtaining access.
    - Save the data in the `RRI` and `Actigraph` folders.
 
 2. **BMI Data**
