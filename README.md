@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/python-3.7%2B-green.svg)](https://www.python.org/downloads/)
 
 The official implementation for DSleepNet: Disentanglement Learning for Personal Attribute-agnostic Three-stage Sleep Classification Using Wearable Sensing Data
-
+![Network Structure](https://github.com/bzhai/DSleepNet/blob/main/assets/Disentangle_Network_Structure.png?raw=true)
 ## Overview
 
 For the sleep stage classification task, gathering data from the entire population is often difficult and resource-intensive. What if you lack the resources to collect data that represents all possible scenarios, such as different ages or health conditions, for accurate sleep monitoring? Existing methods frequently rely on costly setups or data that fail to adapt well to diverse individuals. Our solution, **DSleepNet**, overcomes this challenge by separating personal attribute information (like age or BMI) from universal features critical for sleep stage detection. This innovative approach ensures the model performs effectively for a wide range of people without requiring additional personal data during use. It employs advanced training techniques to deliver reliable predictions, even in diverse, real-world settings.
