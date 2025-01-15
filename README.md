@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.7%2B-green.svg)](https://www.python.org/downloads/)
 
-The official implementation for DSleepNet: Disentanglement Learning for Personal Attribute-agnostic Three-stage Sleep Classification Using Wearable Sensing Data
+The official implementation for **DSleepNet: Disentanglement Learning for Personal Attribute-agnostic Three-stage Sleep Classification Using Wearable Sensing Data**
 ![Network Structure](https://github.com/bzhai/DSleepNet/blob/main/assets/Disentangle_Network_Structure.png?raw=true)
 ## Overview
 
